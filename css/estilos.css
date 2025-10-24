@@ -1,0 +1,69 @@
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    background-color: green;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    margin-right: auto;
+}
+
+/* 4. Estilos de los enlaces */
+.navigation a {
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: white;
+    /* Color del texto */
+    font-size: 3.5rem;
+    padding: 1rem 1rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+
+}
+
+.imagen {
+
+   width: 50%; /* Ocupará el 50% del ancho */
+  height: auto; /* Mantiene la proporción de la imagen */
+  flex-grow: 1; /* Permite que la imagen crezca si hay espacio extra */
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 0;
+    text-align: center;
+    z-index: 1000;
+
+}
+
+footer p {
+    padding: 0em 5rem;
+}

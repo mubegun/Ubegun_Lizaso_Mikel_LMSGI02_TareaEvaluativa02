@@ -1,0 +1,10 @@
+.noticias{
+
+    display: flex; 
+    
+    margin: auto;
+    padding: auto;
+    gap: 1rem;
+    align-items: center;
+}
+
